@@ -11,6 +11,7 @@ namespace Task2
     {
         static void Main(string[] args)
         {
+            //Изменение
             var num = Console.ReadLine();
             var phone = "12345678901234";
             Regex regex = new Regex(@"^\(?([0-9]{7})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$");
